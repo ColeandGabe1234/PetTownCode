@@ -85,5 +85,14 @@ Public Class Form1
         Dim reply As String = client.DownloadString(address)
         Label3.Text = "" + reply
     End Sub
+
+
+    Private Sub Timer6_tick(sender As Object, e As EventArgs) Handles Timer3.Tick
+
+        Dim address As String = requesturl + "getChat?username=" + username
+        Dim client As WebClient = New WebClient()
+        Dim reply As String = client.DownloadString(address)
+        Label4.Text = "" + reply
+    End Sub
 End Class
 
