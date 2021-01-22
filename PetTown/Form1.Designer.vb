@@ -39,7 +39,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(341, 149)
+        Me.PictureBox1.Location = New System.Drawing.Point(348, 176)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(112, 114)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -70,7 +70,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label2.Location = New System.Drawing.Point(0, 28)
+        Me.Label2.Location = New System.Drawing.Point(0, 18)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(111, 17)
         Me.Label2.TabIndex = 2

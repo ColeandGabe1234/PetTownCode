@@ -8,7 +8,7 @@ Public Class Form1
     Dim username = "testuser"
     Dim requesturl = "https://pettown-server.ckaecore.repl.co/"
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        username = login.TextBox3.Text
 
         Dim address As String = requesturl + "getXPos?username=" + username
         Dim client As WebClient = New WebClient()
